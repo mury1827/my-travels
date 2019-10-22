@@ -1,15 +1,13 @@
 import React, { Component } from "react";
 
 class Travels extends Component {
-  state = {};
   render() {
     return (
       <div>
-        <h1>{this.props.destination}</h1>
-        <p>{this.props.country}</p>
-        <p>{this.props.photo}</p>
-        <img src={this.props.photo} />
-        <p>{this.props.distance}</p>
+        <div>I am a travels component! {this.props.destination}</div>
+        <div>I am a travels component! {this.props.country}</div>
+        <div>I am a travels component! {this.props.photo}</div>
+        <div>I am a travels component! {this.props.distance}</div>
       </div>
     );
   }
